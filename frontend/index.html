@@ -1,1 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glamour & Glow Beauty Salon | Luxury Salon & Online Booking</title>
+  <meta name="description" content="Book premium hair styling, spa, and beauty treatments at Glamour & Glow. Experience luxury beauty and wellness in Gajraula, India with our online booking.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <!-- Header Navigation -->
+  <header class="main-header">
+    <div class="logo">
+      <a href="#" id="brand-logo">Glamour & Glow</a>
+    </div>
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#stylists" class="nav-link">Reviews</a></li>
+        <li><a href="#visit" class="nav-link">Visit Us</a></li>
+      </ul>
+    </nav>
+    <div class="header-action">
+      <button class="btn btn-primary open-booking-btn" id="book-btn-nav">Book Appointment</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-bg-wrapper">
+        <img src="images/hero_woman.png" alt="Smiling woman resting her chin in her hands" class="hero-bg-img">
+      </div>
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Glamour & Glow <br>
+            <span class="highlight">Beauty Salon</span>
+          </h1>
+          <p class="hero-subtitle">Your Sanctuary of Style & Relaxation</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary open-booking-btn" id="book-btn-hero">Book Appointment</button>
+            <a href="#services" class="btn btn-secondary" id="explore-services-btn">Explore Services</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Floating Features Badge Card -->
+    <section class="features-section">
+      <div class="features-card">
+        <div class="feature-item">
+          <div class="feature-icon">
+            <!-- Sparkles Icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2a1 1 0 0 1 .993.883L13 3v2a1 1 0 0 1-1.993.117L11 5V3a1 1 0 0 1 1-1zm6.364 2.222a1 1 0 0 1 .12 1.398l-.074.086l-1.414 1.414a1 1 0 0 1-1.497-1.32l.083-.094l1.414-1.414a1 1 0 0 1 1.368-.07zM5.636 4.222a1 1 0 0 1 1.497 1.32l-.083.094L5.636 7.05a1 1 0 0 1-1.497-1.32l.083-.094L5.636 4.222zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm8 3a1 1 0 0 1 .117 1.993L20 14h-2a1 1 0 0 1-.117-1.993L18 12h2zM6 12a1 1 0 0 1 .117 1.993L6 14H4a1 1 0 0 1-.117-1.993L4 12h2zm11.364 4.364a1 1 0 0 1 .07 1.368l-.086.074l-1.414 1.414a1 1 0 0 1-1.497-1.32l.083-.094l1.414-1.414a1 1 0 0 1 1.344-.122zm-10.728 0a1 1 0 0 1 1.497 1.32l-.083.094l-1.414 1.414a1 1 0 0 1-1.497-1.32l.083-.094l1.414-1.414zm5.364 2.636a1 1 0 0 1 .993.883L13 21v2a1 1 0 0 1-1.993.117L11 23v-2a1 1 0 0 1 1-1z" />
+            </svg>
+          </div>
+          <span class="feature-text">Expert Stylists</span>
+        </div>
+        <div class="feature-divider"></div>
+        <div class="feature-item">
+          <div class="feature-icon">
+            <!-- Diamond Icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" />
+            </svg>
+          </div>
+          <span class="feature-text">Luxurious Experience</span>
+        </div>
+        <div class="feature-divider"></div>
+        <div class="feature-item">
+          <div class="feature-icon">
+            <!-- Leaf Icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17 8C8 10 5.9 16.12 5.9 16.12S3 13 3 10c0-3.3 2.7-6 6-6 3.5 0 6.13 2 8 4zm0 0c3 1.5 4 4.5 4 4.5s-4 .5-6-1.5c-1.5-1.5-2-3-2-3z" />
+            </svg>
+          </div>
+          <span class="feature-text">Top-Quality Products</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="about-container">
+        <div class="about-image-wrapper">
+          <img src="images/owner_riya.png" alt="Milsi Sharma - Founder & Lead Stylist" class="about-img">
+        </div>
+        <div class="about-content">
+          <h2 class="section-title">Meet Milsi Sharma</h2>
+          <p class="about-subtitle">Founder & Lead Stylist</p>
+          <p class="about-text">
+            Welcome to Glamour & Glow! I founded this sanctuary of style with a simple vision: to craft luxury beauty and wellness experiences tailored uniquely for you. With over 8 years of professional styling experience, my goal is to blend creativity, precision, and top-tier products to bring out your inner confidence.
+          </p>
+          <p class="about-text">
+            Whether you are here for a classic styling, a deep spa therapy, or a full beauty transformation, we treat every appointment as a personalized masterpiece. Let us help you look and feel your absolute best.
+          </p>
+          <div class="about-badges">
+            <div class="about-badge">
+              <span class="badge-num">8+</span>
+              <span class="badge-label">Years Experience</span>
+            </div>
+            <div class="about-badge">
+              <span class="badge-num">5k+</span>
+              <span class="badge-label">Happy Clients</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+      <div class="section-header">
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-subtitle">Experience luxury beauty & wellness like never before</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-img-wrapper">
+            <img src="images/service_hair.png" alt="Hair Styling" class="service-card-img">
+            <div class="service-overlay">
+              <h3 class="service-card-title">Hair Styling</h3>
+            </div>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-img-wrapper">
+            <img src="images/service_spa.png" alt="Spa & Wellness" class="service-card-img">
+            <div class="service-overlay">
+              <h3 class="service-card-title">Spa & Wellness</h3>
+            </div>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-img-wrapper">
+            <img src="images/service_beauty.png" alt="Beauty Treatments" class="service-card-img">
+            <div class="service-overlay">
+              <h3 class="service-card-title">Beauty Treatments</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section" id="stylists">
+      <div class="section-header">
+        <h2 class="section-title">What Our Clients Say <span class="chat-icon">💬</span></h2>
+      </div>
+      <div class="slider-container">
+        <div class="testimonials-track" id="testimonials-track">
+          <!-- Set 1 (Unique) -->
+          <div class="testimonial-card">
+            <p class="testimonial-quote">"Professional staff and premium quality services 💎"</p>
+            <p class="testimonial-author">— Sneha Kapoor</p>
+          </div>
+          <div class="testimonial-card">
+            <p class="testimonial-quote">"Loved the styling! Will definitely come again 😍"</p>
+            <p class="testimonial-author">— Neha Singh</p>
+          </div>
+          <div class="testimonial-card">
+            <p class="testimonial-quote">"Absolutely loved the service! The ambience and staff are amazing ❤️"</p>
+            <p class="testimonial-author">— Riya Sharma</p>
+          </div>
+          <div class="testimonial-card">
+            <p class="testimonial-quote">"Best salon experience ever! Highly recommended ✨"</p>
+            <p class="testimonial-author">— Ankit Verma</p>
+          </div>
+          <!-- Set 2 (Clones for loop) -->
+          <div class="testimonial-card">
+            <p class="testimonial-quote">"Professional staff and premium quality services 💎"</p>
+            <p class="testimonial-author">— Sneha Kapoor</p>
+          </div>
+          <div class="testimonial-card">
+            <p class="testimonial-quote">"Loved the styling! Will definitely come again 😍"</p>
+            <p class="testimonial-author">— Neha Singh</p>
+          </div>
+          <div class="testimonial-card">
+            <p class="testimonial-quote">"Absolutely loved the service! The ambience and staff are amazing ❤️"</p>
+            <p class="testimonial-author">— Riya Sharma</p>
+          </div>
+          <div class="testimonial-card">
+            <p class="testimonial-quote">"Best salon experience ever! Highly recommended ✨"</p>
+            <p class="testimonial-author">— Ankit Verma</p>
+          </div>
+          <!-- Set 3 (Clones for loop) -->
+          <div class="testimonial-card">
+            <p class="testimonial-quote">"Professional staff and premium quality services 💎"</p>
+            <p class="testimonial-author">— Sneha Kapoor</p>
+          </div>
+          <div class="testimonial-card">
+            <p class="testimonial-quote">"Loved the styling! Will definitely come again 😍"</p>
+            <p class="testimonial-author">— Neha Singh</p>
+          </div>
+          <div class="testimonial-card">
+            <p class="testimonial-quote">"Absolutely loved the service! The ambience and staff are amazing ❤️"</p>
+            <p class="testimonial-author">— Riya Sharma</p>
+          </div>
+          <div class="testimonial-card">
+            <p class="testimonial-quote">"Best salon experience ever! Highly recommended ✨"</p>
+            <p class="testimonial-author">— Ankit Verma</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visit Our Salon Section -->
+    <section class="visit-section" id="visit">
+      <div class="visit-container">
+        <div class="visit-info">
+          <h2 class="visit-title">Visit Our Salon</h2>
+          <p class="visit-subtitle">Luxury experience, crafted for you ✨</p>
+          
+          <ul class="contact-details">
+            <li>
+              <span class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                </svg>
+              </span>
+              <span>Gajraula, India</span>
+            </li>
+            <li>
+              <span class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm3.3 14.3L11 12.8V7h1.5v4.9l3.85 2.3-.55.8-1.5-.7z"/>
+                </svg>
+              </span>
+              <span>Mon - Sat: 10 AM - 7 PM</span>
+            </li>
+            <li>
+              <span class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M6.62 10.79c1.44 2.83 3.76 5.15 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                </svg>
+              </span>
+              <span>+91 98765 43210</span>
+            </li>
+          </ul>
+          
+          <a href="https://maps.google.com/?q=Gajraula,India" target="_blank" class="btn btn-primary" id="get-directions-btn">Get Directions →</a>
+        </div>
+        
+        <div class="visit-map">
+          <!-- Static map layout imitating Google Maps -->
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14013.992296495254!2d77.1725359!3d28.5848208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1d6a6ef4e5c5%3A0xc3fa599eb8a5d3f2!2sChanakyapuri%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+            width="100%" 
+            height="100%" 
+            style="border:0; border-radius: 12px; filter: grayscale(1) invert(0.92) contrast(1.1);" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            id="map-iframe">
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="main-footer">
+    <div class="footer-card">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <h2 class="footer-logo">GlowUp Salon ✨</h2>
+          <p class="footer-desc">Luxury beauty & wellness experience crafted just for you.</p>
+          <button class="btn btn-primary open-booking-btn" id="book-btn-footer">Book Appointment</button>
+        </div>
+        
+        <div class="footer-links">
+          <h3 class="footer-section-title">Explore</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#stylists">About</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h3 class="footer-section-title">Contact</h3>
+          <ul>
+            <li class="contact-item">
+              <span class="small-icon">📍</span> Mithapur, India
+            </li>
+            <li class="contact-item">
+              <span class="small-icon">📞</span> +91 98765 43210
+            </li>
+            <li class="contact-item">
+              <span class="small-icon">✉️</span> glowup@email.com
+            </li>
+          </ul>
+          
+          <div class="social-icons">
+            <a href="#" class="social-icon" aria-label="Web">🌐</a>
+            <a href="#" class="social-icon" aria-label="Instagram">📸</a>
+            <a href="#" class="social-icon" aria-label="TikTok">🎵</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© 2026 GlowUp Salon • Designed with ❤️</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Niche Sub-Services Modal -->
+  <div class="modal-backdrop" id="niche-modal">
+    <div class="modal-card glassmorphism niche-modal-card">
+      <button class="close-btn" id="close-niche-btn">&times;</button>
+      <h2 class="modal-title" id="niche-title">Niche Services</h2>
+      <p class="modal-subtitle" id="niche-subtitle">Choose from our premium treatments</p>
+      <div class="niche-options-list" id="niche-options-list">
+        <!-- Dynamic sub-service items will be injected here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Booking Modal -->
+  <div class="modal-backdrop" id="booking-modal">
+    <div class="modal-card glassmorphism">
+      <button class="close-btn" id="close-modal-btn">&times;</button>
+      
+      <h2 class="modal-title">Book An Appointment</h2>
+      <p class="modal-subtitle">Reserve your luxury experience in seconds</p>
+      
+      <form id="booking-form" novalidate>
+        <div class="form-group">
+          <label for="booking-name">Full Name</label>
+          <input type="text" id="booking-name" required placeholder="Enter your name">
+          <span class="error-msg" id="name-error">Please enter your name</span>
+        </div>
+        
+        <div class="form-group">
+          <label for="booking-email">Email Address</label>
+          <input type="email" id="booking-email" required placeholder="Enter your email">
+          <span class="error-msg" id="email-error">Please enter a valid email address</span>
+        </div>
+        
+        <div class="form-group">
+          <label for="booking-service">Service</label>
+          <select id="booking-service" required>
+            <option value="" disabled selected>Select a Service</option>
+            <option value="Hair Styling">Hair Styling</option>
+            <option value="Spa & Wellness">Spa & Wellness</option>
+            <option value="Beauty Treatments">Beauty Treatments</option>
+          </select>
+          <span class="error-msg" id="service-error">Please select a service</span>
+        </div>
+
+        <div class="form-group" id="subservice-group" style="display: none;">
+          <label for="booking-subservice">Sub-Service</label>
+          <select id="booking-subservice" required>
+            <option value="" disabled selected>Select a Treatment</option>
+          </select>
+          <span class="error-msg" id="subservice-error">Please select a treatment option</span>
+        </div>
+        
+        <div class="form-group">
+          <label for="booking-date">Date</label>
+          <input type="date" id="booking-date" required>
+          <span class="error-msg" id="date-error">Please select a future date</span>
+        </div>
+        
+        <div class="form-group">
+          <label>Available Slots</label>
+          <div class="slots-instruction" id="slots-instruction">Please select a date to view available slots.</div>
+          <div class="time-slots-container" id="booking-time-container">
+            <!-- Dynamic slot buttons will be injected here -->
+          </div>
+          <input type="hidden" id="selected-time" required>
+          <span class="error-msg" id="time-error">Please select a time slot</span>
+        </div>
+        
+        <button type="submit" class="btn btn-primary btn-block" id="submit-booking-btn">Confirm Appointment</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Notification Toast -->
+  <div class="toast" id="notification-toast">
+    <span class="toast-icon" id="toast-icon">✅</span>
+    <span class="toast-message" id="toast-message">Success!</span>
+  </div>
+
+  <!-- Client JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
