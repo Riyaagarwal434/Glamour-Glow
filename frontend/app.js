@@ -1,6 +1,6 @@
 // Set this to your deployed Render backend URL (e.g. "https://salon-backend.onrender.com")
 // Keep it empty ("") when running or testing locally.
-const API_BASE = "https://glamour-glow-backend.onrender.com/";
+const API_BASE = "https://glamour-glow-backend.onrender.com";
 
 document.addEventListener("DOMContentLoaded", () => {
   // Elements
